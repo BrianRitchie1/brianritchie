@@ -1,9 +1,21 @@
 using System;
 
-class Program
+namespace game
+
 {
-    static void Main(string[] args)
+    class Program 
     {
-        Console.WriteLine("Hello Prep1 World!");
+
+    
+        static void Main(string[] args)
+        {
+            Console.WriteLine("What's good? ");
+            Console.WriteLine("The world of C# is goofy ");
+            Console.Write("What is your color? ");
+            string BRcolor = Console.ReadLine();
+
+
+            Console.WriteLine($"Your color is {BRcolor}");
+        }
     }
 }
