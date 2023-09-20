@@ -1,6 +1,6 @@
 using System;
 
-namespace game
+namespace gamer
 
 {
     class Program 
@@ -10,12 +10,11 @@ namespace game
         static void Main(string[] args)
         {
             Console.WriteLine("What's good? ");
-            Console.WriteLine("The world of C# is goofy ");
-            Console.Write("What is your color? ");
-            string BRcolor = Console.ReadLine();
-
-
-            Console.WriteLine($"Your color is {BRcolor}");
+            Console.Write("What is your first name? ");
+            string BR_f_name = Console.ReadLine();
+            Console.Write("What is your last name? ");
+            string BR_l_name = Console.ReadLine();
+            Console.WriteLine($"Your name is {BR_l_name}, {BR_f_name} {BR_l_name}");
         }
     }
 }
